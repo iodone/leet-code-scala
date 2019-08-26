@@ -33,6 +33,23 @@ object Solution {
     newHead
   }
 
+  def reverse(head: ListNode): ListNode = {
+    if (head == null || head.next == null) head
+    else {
+      val q = reverse(head.next)
+      head.next.next = head
+      head.next = null
+      q
+    }
+  }
+  def printListNode(l: ListNode): Unit = {
+    if (l == null) print(".")
+    else {
+      println(l.x)
+      printListNode(l.next)
+    }
+  }
+
   def main(args: Array[String]): Unit = {
     val a: ListNode = new ListNode(0)
     var head = a
@@ -40,7 +57,9 @@ object Solution {
       head.next = new ListNode(i)
       head = head.next
     }
-    val b = reverseList(a)
-    println(b)
+//    val b = reverseList(a)
+    val c = reverse(a)
+//    printListNode(b)
+    printListNode(c)
   }
 }

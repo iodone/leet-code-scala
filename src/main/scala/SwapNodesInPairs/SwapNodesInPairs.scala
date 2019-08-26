@@ -20,6 +20,7 @@ object Solution {
       p
     }
   }
+
   def printListNode(l: ListNode): Unit = {
     if (l == null) print(".")
     else {
