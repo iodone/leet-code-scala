@@ -6,10 +6,10 @@ package LongestPalindromicSubstring
 
 object Solution {
   /*
-    如果P(i,j) 表示Si..Sj的回文字串，那么有以下几种情况的推导
-    P(i,j) = P(i+1, j-1) where i + 1 < j, Si == Sj
-    P(i,j) = P(i,j) where i + 1 == j, Si == Sj
-    P(i,j) = P(i,j) where i == j
+    如果P(i,j) 表示Si..Sj的回文字串length，那么有以下几种情况的推导
+    P(i,j) = P(i+1, j-1) + 2 where i + 1 < j, Si == Sj
+    P(i,j) = 2 where i + 1 == j, Si == Sj
+    P(i,j) = 1 where i == j
    */
   def longestPalindrome(s: String): String = {
 
@@ -21,6 +21,7 @@ object Solution {
 
     val palindromeTag = Array.fill(s.length, s.length)(0)
     var max = (0, 0)
+    // 长度为1的字符串开始计算，j 是字符的末尾
     for (l <- 1 to s.length; i <- 0 to s.length - l) {
       val j = i + l - 1
       if (i == j) {

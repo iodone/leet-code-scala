@@ -38,5 +38,12 @@ object Solution {
     n2.next = n3
     printListNode(swapPairs(n0))
 
+    val x = Array(1,1,2,2,2,4).foldLeft(List[Int]())((acc, x) => {
+      acc.lastOption match {
+        case Some(i) => if (i != x) acc :+ x else acc
+        case None => acc :+ x
+      }
+    }).length
+    println(x)
   }
 }
