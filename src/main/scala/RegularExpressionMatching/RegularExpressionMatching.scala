@@ -5,7 +5,7 @@ package RegularExpressionMatching
   */
 
 /*
-  采用DB解法
+  采用DP解法
   s 表示input string, p 表示正则匹配式
   dp[i][j]代表s[:i]和p[:j]是否正确匹配，那么有
   if s[i] == p[j] || p[j] == . then dp[i][j] = dp[i-1][j-1]
