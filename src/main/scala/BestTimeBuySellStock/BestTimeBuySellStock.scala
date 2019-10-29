@@ -15,6 +15,7 @@ object Solution {
         val minPrice = if (x < maxMin._2) x else maxMin._2
         (maxProfit, minPrice)
       }._1
+
     }
   }
 }
