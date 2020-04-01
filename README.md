@@ -1,1 +1,45 @@
 Just Do IT
+
+# 数据结构与算法
+
+![algo](assert/a.jpg)
+
+# 问题归类
+
+## 数据结构
+
+### 链表
+
+- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) [Code](./src/main/scala/AddTwoNumbers/AddTwoNumbers.scala)
+
+### 堆、队列、栈
+
+### 二叉树
+
+### 查找表
+
+### 图
+
+## 算法思想
+
+### 枚举和查找
+- [1. Two Sum](https://leetcode.com/problems/two-sum/) [Code](./src/main/scala/TwoSum/TwoSum.scala)
+
+### 贪心
+
+### 分治
+
+### 动态规划
+- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) [Code](./src/main/scala/LongestSubStringWithoutRepeatingCharacters/LongestSubStringWithoutRepeatingCharacters.scala)
+
+- [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [Code](./src/main/scala/MaximumSubarry/MaximumSubarray.scala)
+
+- [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](./src/main/scala/LongestConsecutiveSequence/LongestConsecutiveSequence.scala)
+
+### 递归和回溯
+
+### 深度搜索和广度搜索
+
+### 字符串匹配
+
+### 滑动窗口

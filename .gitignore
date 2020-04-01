@@ -118,3 +118,7 @@ project/plugins/project/
 /src/main/resources-dev/strategy.v2.json
 
 
+
+# metals
+.metals/
+.bloop/

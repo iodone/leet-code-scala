@@ -5,14 +5,20 @@ package LongestIncreasingSubsequence
   * Created by iodone on {19-11-11}.
   */
 
-/*
-  Solve with DP
-  dp[i] is length of longest increasing equence with nums[i] end
-  dp[i] = max {
-    dp[i-1] + 1 if (nums[i] < nums[i-1]) (i = 0 to i-1)
-    1
-  }
- */
+
+/**
+  * 解题报告
+  * 
+  * 说明：采用DP思路
+  * 
+  * 思路
+  *   定义：S 表示整个数组，dp(i) 表示以S[i] 结尾的递增子序列长度
+  *   状态转移:
+  *       dp(i+1) = max { dp(j-1) + if (s[j-1] < s[i]) 1 else 0 (j = 0 to i-1)}
+  *   结论：
+  *     S的最长递增子序列长度 = max {dp(i) (i = 0 to S.length-1)}
+  *   
+  */
 
 object Solution {
   def lengthOfLIS(nums: Array[Int]): Int = {
