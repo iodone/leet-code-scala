@@ -22,8 +22,15 @@ Just Do IT
 
 ## 算法思想
 
-### 枚举和查找
+### 模拟和技巧
+
+- [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) [Code](src/main/scala/ReverseInteger/ReverseIntege.scala)
+- [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) [Code](src/main/scala/StringToInteger/StringToInteger.scala)
+- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) [Code](./src/main/scala/PalindromeNumber/PalindromeNumber.scala)
+
+### 枚举，查找和搜索
 - [1. Two Sum](https://leetcode.com/problems/two-sum/) [Code](./src/main/scala/TwoSum/TwoSum.scala)
+- [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) [Code](src/main/scala/ContainerWithMostWater/ContainerWithMostWater.scala)
 
 ### 贪心
 
@@ -31,6 +38,8 @@ Just Do IT
 
 ### 动态规划
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) [Code](./src/main/scala/LongestSubStringWithoutRepeatingCharacters/LongestSubStringWithoutRepeatingCharacters.scala)
+
+- [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) [ToDo](src/main/scala/RegularExpressionMatching/RegularExpressionMatching.scala)
 
 - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [Code](./src/main/scala/MaximumSubarry/MaximumSubarray.scala)
 
