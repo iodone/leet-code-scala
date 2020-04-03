@@ -4,6 +4,11 @@ package NQueens
   * Created by iodone on {19-5-22}.
   */
 
+/**
+  * 解题报告
+  * 
+  * 说明：采用递归思路，判断新queen的位置是否安全，坐标的横竖斜都要判断。
+  */
 object Solution {
   def solveNQueens(n: Int): List[List[String]] = {
     def placeQueens(k: Int): List[List[(Int, Int)]] = {

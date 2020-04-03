@@ -9,6 +9,12 @@ class ListNode(var _x: Int = 0) {
   var x: Int = _x
 }
 
+/**
+  * 解题报告
+  * 
+  * 说明：采用递归思路转化 p->next = join(p->next, q) 或者 q->next = join(p, q->next)
+  */
+
 object Solution {
   def mergeTwoLists(l1: ListNode, l2: ListNode): ListNode = {
     if (l1 == null && l2 == null) null
