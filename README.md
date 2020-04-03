@@ -12,6 +12,8 @@ Just Do IT
 
 - [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) [Code](./src/main/scala/AddTwoNumbers/AddTwoNumbers.scala)
 
+- [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [Code](src/main/scala/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.scala)
+
 ### 堆、队列、栈
 
 ### 二叉树
@@ -32,6 +34,8 @@ Just Do IT
 - [1. Two Sum](https://leetcode.com/problems/two-sum/) [Code](./src/main/scala/TwoSum/TwoSum.scala)
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) [Code](src/main/scala/ContainerWithMostWater/ContainerWithMostWater.scala)
 
+- [15. 3Sum](https://leetcode.com/problems/3sum/) [Code](src/main/scala/3Sum/3Sum.scala)
+
 ### 贪心
 
 ### 分治
@@ -46,6 +50,8 @@ Just Do IT
 - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](./src/main/scala/LongestConsecutiveSequence/LongestConsecutiveSequence.scala)
 
 ### 递归和回溯
+
+- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) [Code](src/main/scala/LetterCombinationsOfAPhoneNumber/LetterCombinationsPhoneNumber.scala)
 
 ### 深度搜索和广度搜索
 

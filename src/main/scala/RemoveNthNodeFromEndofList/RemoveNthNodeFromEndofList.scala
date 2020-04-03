@@ -7,9 +7,16 @@ class ListNode(var _x: Int = 0) {
   var next: ListNode = null
   var x: Int = _x
 }
-/*
-加入哨兵，减少特殊情况判断
- */
+
+/**
+  * 解题报告
+  * 
+  * 思路：
+  *   1.链表移除需要保存前一个节点，避免断链。如果remove的是head节点，需要特殊情况判断，为了避免特殊情况，
+  * 增加 guard 来消除特殊逻辑判断。
+  *   2.remove 倒数n个节点，首先要找到该节点，可以采用双指针方法，先让快指针走n步，然后同步速率，直到
+  *   快指针到达链表尾部
+  */
 object Solution {
   def removeNthFromEnd(head: ListNode, n: Int): ListNode = {
     val initNode = new ListNode()
