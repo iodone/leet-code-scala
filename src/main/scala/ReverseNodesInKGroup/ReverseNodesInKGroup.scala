@@ -8,6 +8,13 @@ class ListNode(var _x: Int = 0) {
   var x: Int = _x
 }
 
+/**
+  * 解题报告
+  * 
+  * 说明：该问题为swap pair的泛化版本。采用递归思路，第一组的reverse 链接剩下链表的子问题。实现过程中先要
+  * 找到第一组的尾结点
+  */
+
 object Solution {
   def reverseKGroup(head: ListNode, k: Int): ListNode = {
     if (head == null || head.next == null) head

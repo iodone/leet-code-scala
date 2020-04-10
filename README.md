@@ -14,7 +14,17 @@ Just Do IT
 
 - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [Code](src/main/scala/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.scala)
 
+- [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) [Code](src/main/scala/MergeTwoSortedLists/MergeTwoSortedLists.scala)
+
+- [24. Swap Nodes in Pairs(Medium)](https://leetcode.com/problems/swap-nodes-in-pairs/) [Code](src/main/scala/SwapNodesInPairs/SwapNodesInPairs.scala)
+
+- [25. Reverse Nodes in k-Group(Hard)](https://leetcode.com/problems/reverse-nodes-in-k-group/) [Code](src/main/scala/ReverseNodesInKGroup/ReverseNodesInKGroup.scala)
+
 ### 堆、队列、栈
+
+- [20. Valid Parentheses(Easy)](https://leetcode.com/problems/valid-parentheses/) [Code](src/main/scala/ValidParentheses/ValidParentheses.scala)
+
+- [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [Code](src/main/scala/MergeKSortedList/MergeKSortedLIsts.scala)
 
 ### 二叉树
 
@@ -52,6 +62,8 @@ Just Do IT
 ### 递归和回溯
 
 - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) [Code](src/main/scala/LetterCombinationsOfAPhoneNumber/LetterCombinationsPhoneNumber.scala)
+
+- [51. N-Queens](https://leetcode.com/problems/n-queens/) [Code](./src/main/scala/NQueens/NQueens.scala)
 
 ### 深度搜索和广度搜索
 

@@ -4,6 +4,13 @@ package SwapNodesInPairs
   * Created by iodone on {19-8-23}.
   */
 
+/**
+  * 解题报告
+  * 
+  * 说明：递归思路，头部两个加后面的子问题，头部两两交换后在与子问题连接即可
+  * 
+  */
+
 class ListNode(var _x: Int = 0) {
   var next: ListNode = null
   var x: Int = _x

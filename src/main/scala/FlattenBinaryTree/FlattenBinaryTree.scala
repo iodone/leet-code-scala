@@ -12,7 +12,7 @@ class TreeNode(var _value: Int) {
 
 object Solution {
   def flatten(root: TreeNode): Unit = {
-    if (root == null) null
+    if (root == null) root 
     else {
       root.right = flattenTree(root).right
       root.left = null
