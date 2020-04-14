@@ -4,6 +4,17 @@ package SearchInRotatedSortedArray
   * Created by iodone on {19-9-9}.
   */
 
+/**
+  * 解题报告
+  * 
+  * 说明；虽然是环形有序数组，但是仍然能够利用二分查找的思想。
+  * 
+  * 思路：每次从中间将数组分成左右两部分后，可以发现总有一部分是有序的，根据每部分边界值xs.head <= xs.last
+  * 判断是否有序，每次只要在有序部分寻找目标值即可，如果存在则继续进行二分查找（有序部分），
+  * 不存在则在另一部分（无序部分）继续按以上步骤查找，直到结束。
+  * 每次都能将搜寻空间缩小到二分之一,所以最终时间复杂度是 O(logn)
+  */
+
 object Solution {
   def search(nums: Array[Int], target: Int): Int = {
     if (nums.isEmpty) -1

@@ -41,16 +41,21 @@ Just Do IT
 - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) [Code](./src/main/scala/PalindromeNumber/PalindromeNumber.scala)
 
 ### 枚举，查找和搜索
+
 - [1. Two Sum](https://leetcode.com/problems/two-sum/) [Code](./src/main/scala/TwoSum/TwoSum.scala)
 - [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) [Code](src/main/scala/ContainerWithMostWater/ContainerWithMostWater.scala)
 
 - [15. 3Sum](https://leetcode.com/problems/3sum/) [Code](src/main/scala/3Sum/3Sum.scala)
+- [(Medium) 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) [Code](src/main/scala/SearchInRotatedSortedArray/SearchInRotatedSortedArray.scala)
+
+- [(Hard)41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) [Code](./src/main/scala/FirstMissingPositive/FirstMissingPositive.scala)
 
 ### 贪心
 
 ### 分治
 
 ### 动态规划
+
 - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) [Code](./src/main/scala/LongestSubStringWithoutRepeatingCharacters/LongestSubStringWithoutRepeatingCharacters.scala)
 
 - [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) [ToDo](src/main/scala/RegularExpressionMatching/RegularExpressionMatching.scala)
@@ -64,6 +69,10 @@ Just Do IT
 - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) [Code](src/main/scala/LetterCombinationsOfAPhoneNumber/LetterCombinationsPhoneNumber.scala)
 
 - [51. N-Queens](https://leetcode.com/problems/n-queens/) [Code](./src/main/scala/NQueens/NQueens.scala)
+
+- [(Medium)39. Combination Sum](https://leetcode.com/problems/combination-sum/) [Code](./src/main/scala/CombinationSum/CombinationSum.scala)
+
+- [(Medium)77. Combinations](https://leetcode.com/problems/combinations/) [Code](./src/scala/../main/scala/Combinations/Combinations.scala)
 
 ### 深度搜索和广度搜索
 
