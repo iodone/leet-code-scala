@@ -72,10 +72,14 @@ Just Do IT
 
 - [(Medium)39. Combination Sum](https://leetcode.com/problems/combination-sum/) [Code](./src/main/scala/CombinationSum/CombinationSum.scala)
 
+- [(Medium)46. Permutations](https://leetcode.com/problems/permutations/) [Code](./src/main/scala/Permutations/Permutations.scala)
+
 - [(Medium)77. Combinations](https://leetcode.com/problems/combinations/) [Code](./src/scala/../main/scala/Combinations/Combinations.scala)
 
 ### 深度搜索和广度搜索
 
 ### 字符串匹配
+
+- [(Medium)49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) [Code](./src/main/scala/GroupAnagrams/GroupAnagrams.scala)
 
 ### 滑动窗口
