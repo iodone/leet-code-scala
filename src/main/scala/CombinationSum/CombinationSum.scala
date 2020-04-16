@@ -20,13 +20,24 @@ import scala.collection.mutable.ArrayBuffer
   * Comb(S,target) = [ {S(i) U Comb(S, target-S(i))} U Comb(S.remove(S(i)), target) | i < S.length]
   * 这个方式实现更适合计算组合数。
   * 
+  * 回溯算法套路：
+  * 
+  * val result = ArrayBuffer()
+  * def backtrace(path, candiateList): Unit = {
+  * 
+  *   if 条件满足 result += path
+  *   else 
+  *     for selected in candidateList
+  * 
+  *       // 筛选减枝,这里是传入的是path常量，后面不用再撤销
+  *       backtrace(path.add(selected), candidtateList)
+  * 
   */
-// 回溯
 object Solution {
 
   def combinationSum(candidates: Array[Int], target: Int): List[List[Int]] = {
-    comb(candidates, 0, target)
-    // genComb(candidates, target)
+    // comb(candidates, 0, target)
+    genComb(candidates, target)
   }
 
   // prune
@@ -51,14 +62,14 @@ object Solution {
     val buf = ArrayBuffer[List[Int]]()
     def dfs(start: Int, left: Int, tmp: List[Int]): Unit = {
       if (left == 0) buf += tmp
+      else if (left < 0) return
       else {
         for (i <- start until candidates.length) {
-          if (left - candidates(i) >= 0)
-            dfs(i, left - candidates(i), tmp ::: candidates(i) :: Nil)
-          tmp.dropRight(1)
+          dfs(i, left - candidates(i), tmp ::: candidates(i) :: Nil)
         }
       }
     }
+    dfs(0, target, List())
     buf.toList
   }
 

@@ -3,6 +3,13 @@ package SqrtX
 /**
   * Created by iodone on {19-8-15}.
   */
+/**
+  * 解题报告
+  * 
+  * 说明：逐个枚举即可
+  * 
+  * 思路：通用开平方的解法，采用递归思路，利用牛顿迭代法（夹逼法）逐步靠近
+  */
 object Solution {
   import scala.math.{floor, abs}
   def mySqrt(x: Int): Int = {

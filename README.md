@@ -39,6 +39,7 @@ Just Do IT
 - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) [Code](src/main/scala/ReverseInteger/ReverseIntege.scala)
 - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) [Code](src/main/scala/StringToInteger/StringToInteger.scala)
 - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) [Code](./src/main/scala/PalindromeNumber/PalindromeNumber.scala)
+- [(Medium)56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [Code](./srcmer)
 
 ### 枚举，查找和搜索
 
@@ -62,6 +63,8 @@ Just Do IT
 
 - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [Code](./src/main/scala/MaximumSubarry/MaximumSubarray.scala)
 
+- [(Medium)62. Unique Paths](https://leetcode.com/problems/unique-paths/) [Code](./src/main/scala/UniquePaths/UniquePaths.scala)
+- [(Medium)64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) [Code](./src/main/scala/MinimumPathSum/MinimumPathSum.scala)
 - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](./src/main/scala/LongestConsecutiveSequence/LongestConsecutiveSequence.scala)
 
 ### 递归和回溯
@@ -74,7 +77,13 @@ Just Do IT
 
 - [(Medium)46. Permutations](https://leetcode.com/problems/permutations/) [Code](./src/main/scala/Permutations/Permutations.scala)
 
+- [(Easy)69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) [Code](./src/main/scala/SqrtX/SqrtX.scala)
+  
+- [(Easy)70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) [Code](./src/main/scala/ClimbingStairs/ClimbingStairs.scala)
+
 - [(Medium)77. Combinations](https://leetcode.com/problems/combinations/) [Code](./src/scala/../main/scala/Combinations/Combinations.scala)
+
+
 
 ### 深度搜索和广度搜索
 
