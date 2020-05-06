@@ -13,14 +13,16 @@ import scala.collection.mutable.ArrayBuffer
   * 
   * 思路一：深度搜索遍历候选数组每个成员，都可以作为一个搜索入口。为避免重复，剪枝策略：每个分支仅
   * 搜索包含自身的后续成员。如果最后剩下的target < 0 表明该分支不符合。
-  * Comb(S, target) = [ S(i) U Comb(S[i:], target - S(i)) | i < S.length]
+  * Comb(S, target) = [ {S(i) * Comb(S[i+1:], target - S(i))}| i < S.length]
   * 实现方式可以采用：完全递归和dfs的遍历两种
   * 
   * 思路二：递归方法。该问题可以拆解成两部分：包含第一个成员和不包含第一个成员的组合数。
-  * Comb(S,target) = [ {S(i) U Comb(S, target-S(i))} U Comb(S.remove(S(i)), target) | i < S.length]
-  * 这个方式实现更适合计算组合数。
+  * Comb(S,target) = [ {S(0) * Comb(S, target-S(0))} U Comb(S[1:], target)]
+  * 这个方式实现更适合计算组合数。也就是CoinChange的解法。
   * 
   * 回溯算法套路：
+  * 
+  * 参考：https://github.com/labuladong/fucking-algorithm/blob/master/%E7%AE%97%E6%B3%95%E6%80%9D%E7%BB%B4%E7%B3%BB%E5%88%97/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3%E4%BF%AE%E8%AE%A2%E7%89%88.md
   * 
   * val result = ArrayBuffer()
   * def backtrace(path, candiateList): Unit = {

@@ -27,6 +27,18 @@ object Solution {
     xs.isEmpty
   }
 
+  // 递归思路
+   def balance(chars: String): Boolean = {
+      def unbalance(rest: String, tag: Int): Int = {
+        if (tag == -1 || rest.isEmpty) tag
+        else if (rest.head == '(') unbalance(rest.tail, tag + 1)
+        else if (rest.head == ')') unbalance(rest.tail, tag - 1)
+        else unbalance(rest.tail, tag)
+      }
+      unbalance(chars, 0) == 0
+    }
+  
+
   def main(args: Array[String]): Unit = {
     assert(isValid("[[{[]}]]") == true)
     assert(isValid("[[{[]}}]]") == false)

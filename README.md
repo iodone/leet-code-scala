@@ -83,6 +83,8 @@ Just Do IT
 
 - [(Medium)77. Combinations](https://leetcode.com/problems/combinations/) [Code](./src/scala/../main/scala/Combinations/Combinations.scala)
 
+- [(Medium)78. Subsets](https://leetcode.com/problems/subsets/) [code](./src/main/scala/Subsets/Subsets.scala)
+
 
 
 ### 深度搜索和广度搜索
