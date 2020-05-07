@@ -4,6 +4,16 @@ package CoinChange
   * Created by iodone on {19-11-12}.
   */
 
+
+/**
+  * 解题报告
+  * 
+  * 思路：动态规划
+  *       定义：dp(i)表示钱数为i最小的兑换数, S表示硬币数组
+  *       状态转移：dp(i) = min { dp(n-S(j)) | n - S(j) >=0 and j < S.length} + 1
+  *                dp(0) = 0
+  */
+
 object Solution {
 
   def coinChange(coins: Array[Int], amount: Int): Int = {

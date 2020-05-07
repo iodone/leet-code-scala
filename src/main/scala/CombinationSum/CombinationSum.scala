@@ -9,7 +9,7 @@ import scala.collection.mutable.ArrayBuffer
 /**
   * 解题报告
   * 
-  * 说明：采用深度搜索和递归的方法
+  * 说明：采用深度搜索和递归的方法, coinchange2(518)的全路径打印
   * 
   * 思路一：深度搜索遍历候选数组每个成员，都可以作为一个搜索入口。为避免重复，剪枝策略：每个分支仅
   * 搜索包含自身的后续成员。如果最后剩下的target < 0 表明该分支不符合。
@@ -18,7 +18,7 @@ import scala.collection.mutable.ArrayBuffer
   * 
   * 思路二：递归方法。该问题可以拆解成两部分：包含第一个成员和不包含第一个成员的组合数。
   * Comb(S,target) = [ {S(0) * Comb(S, target-S(0))} U Comb(S[1:], target)]
-  * 这个方式实现更适合计算组合数。也就是CoinChange的解法。
+  * 这个方式实现更适合计算组合数。也就是CoinChange2的解法。
   * 
   * 回溯算法套路：
   * 

@@ -65,7 +65,11 @@ Just Do IT
 
 - [(Medium)62. Unique Paths](https://leetcode.com/problems/unique-paths/) [Code](./src/main/scala/UniquePaths/UniquePaths.scala)
 - [(Medium)64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) [Code](./src/main/scala/MinimumPathSum/MinimumPathSum.scala)
-- [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](./src/main/scala/LongestConsecutiveSequence/LongestConsecutiveSequence.scala)
+- [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](./src/main/scala/LongestIncreasingSubsequence/LongestIncreasingSubsequence.scala)
+- [(Medium)322. Coin Change](https://leetcode.com/problems/coin-change/) [Code](./src/main/scala/CoinChange/CoinChange.scala)
+
+- [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
+
 
 ### 递归和回溯
 
@@ -83,7 +87,9 @@ Just Do IT
 
 - [(Medium)77. Combinations](https://leetcode.com/problems/combinations/) [Code](./src/scala/../main/scala/Combinations/Combinations.scala)
 
-- [(Medium)78. Subsets](https://leetcode.com/problems/subsets/) [code](./src/main/scala/Subsets/Subsets.scala)
+- [(Medium)78. Subsets](https://leetcode.com/problems/subsets/) [Code](./src/main/scala/Subsets/Subsets.scala)
+
+- [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
 
 
 
