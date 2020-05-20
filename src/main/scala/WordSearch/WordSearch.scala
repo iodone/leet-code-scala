@@ -4,6 +4,17 @@ package WordSearch
   * Created by iodone on {19-9-27}.
   */
 
+/**
+  * 解题报告
+  * 
+  * 说明：路径search的问题，一般都是采用回溯的算法。
+  * 
+  * 思路：构建二维path记录表，也就是visited表用于标记已经走过的点
+  *      1. search 路径，有四个方向，上下左右
+  *      2. word的search可以分解成head + 四个子问题，一旦有成功的就返回
+  *      3. visited标记后，需要回溯还原
+  */
+
 object Solution {
   def exist(board: Array[Array[Char]], word: String): Boolean = {
     val rows = board.length

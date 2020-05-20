@@ -53,6 +53,10 @@ Just Do IT
 
 ### 贪心
 
+### 排序
+
+- [(Medium)75. Sort Colors](https://leetcode.com/problems/sort-colors/) [Code](./src/main/scala/SortColors/SortColors.scala)
+
 ### 分治
 
 ### 动态规划
@@ -88,6 +92,8 @@ Just Do IT
 - [(Medium)77. Combinations](https://leetcode.com/problems/combinations/) [Code](./src/scala/../main/scala/Combinations/Combinations.scala)
 
 - [(Medium)78. Subsets](https://leetcode.com/problems/subsets/) [Code](./src/main/scala/Subsets/Subsets.scala)
+
+- [(Medium)79. Word Search](https://leetcode.com/problems/word-search/) [Code](./src/main/scala/WordSearch/WordSearch.scala)
 
 - [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
 
