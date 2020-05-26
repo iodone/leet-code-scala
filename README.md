@@ -28,6 +28,10 @@ Just Do IT
 
 ### 二叉树
 
+- [94. Binary Tree Inorder Traversal(Medium)](https://leetcode.com/problems/binary-tree-inorder-traversal/) [Code](src/main/scala/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.scala)
+
+- [98. Validate Binary Search Tree(Medium)](https://leetcode.com/problems/validate-binary-search-tree/) [Code](src/main/scala/ValidateBinarySearchTree/ValidateBinarySearchTree.scala)
+
 ### 查找表
 
 ### 图
@@ -100,6 +104,8 @@ Just Do IT
 
 
 ### 深度搜索和广度搜索
+
+- [(Medium)207. Course Schedule](https://leetcode.com/problems/course-schedule/) [Code](./src/main/scala/CourseSchedule/CourseSchedule.scala)
 
 ### 字符串匹配
 

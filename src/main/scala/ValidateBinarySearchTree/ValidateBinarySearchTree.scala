@@ -10,6 +10,14 @@ class TreeNode(var _value: Int) {
   var right: TreeNode = null
 }
 
+
+/**
+  * 解题报告
+  * 
+  * 思路：BST的判断不是与构建的时候那么明显，特别需要注意每个节点是有上界和下界的。在处理left节点容易忽略上界，right节点容易忽略下界。
+  *     采用递归思路。通过min和max保存当前节点的上下界，同时进入到左子树时更新上界，进入到右子树更新下界。
+  * 
+  */
 object Solution {
   def isValidBST(root: TreeNode): Boolean = {
 //    inorderTraversal(root)._2
