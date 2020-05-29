@@ -4,6 +4,12 @@ package SymmetricTree
   * Created by iodone on {19-10-17}.
   */
 
+/**
+  * 解题报告
+  *
+  * 思路：递归思想，子问题为判断左右两个branch是否也是对称的。Symetric(root1.left, root2.right) && Symetric(root1.right, root2.left)
+  */
+
 class TreeNode(var _value: Int) {
   var value: Int = _value
   var left: TreeNode = null

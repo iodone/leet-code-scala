@@ -4,7 +4,7 @@ package CourseSchedule
 /**
   * 解题报告
   * 
-  * 说明：属于图中环的判断，图的表达形式一般有Edge List，Adjacency matrices，Adjacency lists。此题属于Edge List的表现形式
+  * 说明：属于图中环的判断，图的表达形式一般有Edge List，Adjacency matrices，Adjacency lists。此题属于Edge List的表现形式。参见：https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs
   * 
   * 思路：DFS搜索，记录访问路径，如果图中有环，一定会遍历到已经访问过的节点。根据节点边可以找到下一次的搜索节点，一直递归进行，直到有已经访问过的节点再次被访问退出。
   *     依次从每个节点发起搜索，就可以找出所有图中是否有环的情况。

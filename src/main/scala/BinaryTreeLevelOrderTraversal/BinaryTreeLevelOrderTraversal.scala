@@ -4,6 +4,14 @@ package BinaryTreeLevelOrderTraversal
   * Created by iodone on {19-10-18}.
   */
 
+/**
+  * 解题报告
+  *
+  * 思路一：采用队列的方式，从root节点开始遍历，左右节点入队列，后续每次从队头取值然后左右子节点入队列，直到队列为空为止
+  * 
+  * 思路二：递归思路，分解成root :: level(左子树)和level(右子树) zip即可
+  */
+
 class TreeNode(var _value: Int) {
   var value: Int = _value
   var left: TreeNode = null

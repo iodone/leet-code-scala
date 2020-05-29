@@ -28,9 +28,13 @@ Just Do IT
 
 ### 二叉树
 
-- [94. Binary Tree Inorder Traversal(Medium)](https://leetcode.com/problems/binary-tree-inorder-traversal/) [Code](src/main/scala/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.scala)
+- [(Medium)94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) [Code](src/main/scala/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.scala)
 
-- [98. Validate Binary Search Tree(Medium)](https://leetcode.com/problems/validate-binary-search-tree/) [Code](src/main/scala/ValidateBinarySearchTree/ValidateBinarySearchTree.scala)
+- [(Medium)98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) [Code](src/main/scala/ValidateBinarySearchTree/ValidateBinarySearchTree.scala)
+
+- [(Medium)101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) [Code](src/main/scala/SymmetricTree/SymmetricTree.scala)
+
+- [(Medium)102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) [Code](src/main/scala/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.scala)
 
 ### 查找表
 
@@ -41,8 +45,11 @@ Just Do IT
 ### 模拟和技巧
 
 - [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) [Code](src/main/scala/ReverseInteger/ReverseIntege.scala)
+
 - [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) [Code](src/main/scala/StringToInteger/StringToInteger.scala)
+
 - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) [Code](./src/main/scala/PalindromeNumber/PalindromeNumber.scala)
+
 - [(Medium)56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [Code](./srcmer)
 
 ### 枚举，查找和搜索
@@ -72,8 +79,11 @@ Just Do IT
 - [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [Code](./src/main/scala/MaximumSubarry/MaximumSubarray.scala)
 
 - [(Medium)62. Unique Paths](https://leetcode.com/problems/unique-paths/) [Code](./src/main/scala/UniquePaths/UniquePaths.scala)
+
 - [(Medium)64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) [Code](./src/main/scala/MinimumPathSum/MinimumPathSum.scala)
+
 - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](./src/main/scala/LongestIncreasingSubsequence/LongestIncreasingSubsequence.scala)
+
 - [(Medium)322. Coin Change](https://leetcode.com/problems/coin-change/) [Code](./src/main/scala/CoinChange/CoinChange.scala)
 
 - [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
@@ -100,7 +110,6 @@ Just Do IT
 - [(Medium)79. Word Search](https://leetcode.com/problems/word-search/) [Code](./src/main/scala/WordSearch/WordSearch.scala)
 
 - [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
-
 
 
 ### 深度搜索和广度搜索
