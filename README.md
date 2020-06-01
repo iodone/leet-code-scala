@@ -36,6 +36,10 @@ Just Do IT
 
 - [(Medium)102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) [Code](src/main/scala/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.scala)
 
+- [(Medium)104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) [Code](src/main/scala/MaximumDepthofBinaryTree/MaximumDepthBinaryTree.scala)
+
+- [(Medium)114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) [Code](src/main/scala/FlattenBinaryTree/FlattenBinaryTree.scala)
+
 ### 查找表
 
 ### 图
