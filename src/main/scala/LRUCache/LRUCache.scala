@@ -6,6 +6,21 @@ package LRUCache
 
 import scala.collection.mutable.LinkedHashMap
 
+/**
+  * 解题报告
+  * 
+  * 说明：使用链表的数据结构，要求需要实现cache的O(1)的查询时间复杂度，
+  * 链表加hash表组合完成，采用LinkedHashMap
+  * 
+  * 思路：1) get接口：
+  *         根据key获取值，如果存在放到队尾，同时remove当前key，可以采用put方法完成
+  *      2) put接口：
+  *         remove当前的key
+  *         队尾插入key
+  *         判断是否超过cache容量大小，删除head,直到容量符合预设值
+  * 
+  */
+
 class LRUCache(_capacity: Int) {
 
   val cacheRepo = new LinkedHashMap[Int, Int]()

@@ -4,6 +4,14 @@ package LongestConsecutiveSequence
   * Created by iodone on {19-10-25}.
   */
 
+/**
+  * 解题报告
+  * 
+  * 说明：空间换时间
+  * 
+  * 思路：通过hash表去重，然后依次遍历hashTable, 记录当前遍历的连续序列长度，最后比较所有的连续序列长度大小即可
+  */
+
 object Solution {
   import scala.math.max
   import scala.collection.immutable.HashSet

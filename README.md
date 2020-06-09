@@ -26,6 +26,8 @@ Just Do IT
 
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [Code](src/main/scala/MergeKSortedList/MergeKSortedLIsts.scala)
 
+- [(Medium)146](https://leetcode.com/problems/lru-cache/) [Code](src/main/scala/LRUCache/LRUCache.scala)
+
 ### 二叉树
 
 - [(Medium)94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) [Code](src/main/scala/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.scala)
@@ -42,6 +44,8 @@ Just Do IT
 
 ### 查找表
 
+- [(Medium)128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) [Code](src/main/scala/LongestConsecutiveSequence/LongestConsecutiveSequence.scala)
+
 ### 图
 
 ## 算法思想
@@ -54,7 +58,9 @@ Just Do IT
 
 - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) [Code](./src/main/scala/PalindromeNumber/PalindromeNumber.scala)
 
-- [(Medium)56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [Code](./srcmer)
+- [(Medium)56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [Code](src/main/scala/MergeIntervals/MergeIntervals.scala)
+
+- [(Easy)136. Single Number](https://leetcode.com/problems/single-number/) [Code](src/main/scala/SingleNumber/SingleNumber.scala)
 
 ### 枚举，查找和搜索
 
@@ -72,6 +78,8 @@ Just Do IT
 
 - [(Medium)75. Sort Colors](https://leetcode.com/problems/sort-colors/) [Code](./src/main/scala/SortColors/SortColors.scala)
 
+- [(Medium)148. Sort List](https://leetcode.com/problems/sort-list/) [Code](src/main/scala/SortList/SortList.scala)
+
 ### 分治
 
 ### 动态规划
@@ -86,11 +94,16 @@ Just Do IT
 
 - [(Medium)64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) [Code](./src/main/scala/MinimumPathSum/MinimumPathSum.scala)
 
+- [(Medium)121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) [Code](./src/main/scala/BestTimeBuySellStock/BestTimeBuySellStock.scala)
+
 - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](./src/main/scala/LongestIncreasingSubsequence/LongestIncreasingSubsequence.scala)
 
 - [(Medium)322. Coin Change](https://leetcode.com/problems/coin-change/) [Code](./src/main/scala/CoinChange/CoinChange.scala)
 
 - [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
+
+- [(Medium)152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) [Code](./src/main/scala/MaximunProductSubarray/MaximumProductSubarray.scala)
+
 
 
 ### 递归和回溯

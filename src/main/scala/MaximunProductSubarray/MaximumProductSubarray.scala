@@ -4,6 +4,12 @@ package MaximunProductSubarray
   * Created by iodone on {19-10-30}.
   */
 
+/**
+  * 解题报告
+  * 
+  * 思路：动态规划思路，类似最大子序列和，最大乘积需要保存正负两个交替值
+  */
+
 object Solution {
   import scala.math.{max, min}
   def maxProduct(nums: Array[Int]): Int = {

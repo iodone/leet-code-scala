@@ -4,6 +4,13 @@ package SortList
   * Created by iodone on {19-10-29}.
   */
 
+/**
+  * 解题报告
+  * 
+  * 思路：快排，分解为左右两个排好序的链表与piovt结点连接即可。由于左链表只返回了头结点，连接时必须找到尾结点。
+  *
+  */
+
 class ListNode(var _x: Int = 0) {
   var next: ListNode = null
   var x: Int = _x
