@@ -4,6 +4,14 @@ package CountPrimes
   * Created by iodone on {19-5-28}.
   */
 
+/**
+  * 解题报告：
+  * 
+  * 思路：素数筛选法，假定[2..n]都是素数，从最小素数开始，依次删除其倍数，循环迭代（亦可采用递归方法）
+  * 
+  * prime([head:tail]) = head :: prime(tail.filter(_ % head != 0))
+  */
+
 object Solution {
 
   def countPrimes(n: Int): Int = {

@@ -26,7 +26,7 @@ Just Do IT
 
 - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [Code](src/main/scala/MergeKSortedList/MergeKSortedLIsts.scala)
 
-- [(Medium)146](https://leetcode.com/problems/lru-cache/) [Code](src/main/scala/LRUCache/LRUCache.scala)
+- [(Medium)146. LRU Cache](https://leetcode.com/problems/lru-cache/) [Code](src/main/scala/LRUCache/LRUCache.scala)
 
 ### 二叉树
 
@@ -61,6 +61,10 @@ Just Do IT
 - [(Medium)56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [Code](src/main/scala/MergeIntervals/MergeIntervals.scala)
 
 - [(Easy)136. Single Number](https://leetcode.com/problems/single-number/) [Code](src/main/scala/SingleNumber/SingleNumber.scala)
+
+- [(Easy)169. Majority Element](https://leetcode.com/problems/majority-element/) [Code](src/main/scala/MajorityElement/MajorityElement.scala)
+
+- [(Eays)204. Count Primes](https://leetcode.com/problems/count-primes/) [Code](src/main/scala/CountPrimes/CountPrimes.scala)
 
 ### 枚举，查找和搜索
 
