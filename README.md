@@ -132,6 +132,8 @@ Just Do IT
 
 - [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
 
+- [(Easy)206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) [Code](./src/main/scala/ReverseLinkedList/ReverseLinkedList.scala)
+
 
 ### 深度搜索和广度搜索
 

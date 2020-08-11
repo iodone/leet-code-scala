@@ -8,10 +8,18 @@ package ReverseLinkedList
   * Definition for singly-linked list.
   */
 
+/**
+  * 解题报告
+  * 
+  * 思路：采用递归思路 reverse(head::tail) = reverse(tail) :: head，需要注意最后head节点的拼接顺序
+  *
+  */
+
 class ListNode(var _x: Int = 0) {
   var next: ListNode = null
   var x: Int = _x
 }
+
 object Solution {
 
   def reverseList(head: ListNode): ListNode = {
@@ -42,6 +50,7 @@ object Solution {
       q
     }
   }
+
   def printListNode(l: ListNode): Unit = {
     if (l == null) print(".")
     else {

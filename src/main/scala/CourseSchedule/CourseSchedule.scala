@@ -10,7 +10,7 @@ package CourseSchedule
   *     依次从每个节点发起搜索，就可以找出所有图中是否有环的情况。
   */
 object Solution {
-    // import scala.collection.mutable.Map
+
     def canFinish(numCourses: Int, prerequisites: Array[Array[Int]]): Boolean = {
         var ret = true
         (0 until numCourses).takeWhile { x => ret = isCircle(x, Map[Int, Boolean](), prerequisites); ret}
@@ -22,6 +22,7 @@ object Solution {
         else {
             var tag = true
             for (nextNode <- prerequisites.filter(_(0) == node)) {
+                // prune
                 if (tag == true) {
                     tag = isCircle(nextNode(1), visited + (node -> true), prerequisites)
                 }
