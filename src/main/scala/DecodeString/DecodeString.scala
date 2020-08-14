@@ -4,6 +4,12 @@ package DecodeString
   * Created by iodone on {19-11-14}.
   */
 
+/**
+  * 解题报告
+  * 
+  * 思路：递归思路。分为三块expr = [a-z]*\[expr\](0,n)expr
+  */
+
 object Solution {
   def decodeString(s: String): String = {
     if (s == "") ""

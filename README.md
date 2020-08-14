@@ -28,6 +28,8 @@ Just Do IT
 
 - [(Medium)146. LRU Cache](https://leetcode.com/problems/lru-cache/) [Code](src/main/scala/LRUCache/LRUCache.scala)
 
+- [(Medium)215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [Code](./src/main/scala/KthLargestElement/KthLargestElement.scala)
+
 ### 二叉树
 
 - [(Medium)94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) [Code](src/main/scala/BinaryTreeInorderTraversal/BinaryTreeInorderTraversal.scala)
@@ -42,10 +44,15 @@ Just Do IT
 
 - [(Medium)114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) [Code](src/main/scala/FlattenBinaryTree/FlattenBinaryTree.scala)
 
+- [(Easy)226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) [Code](./scr/../src/main/scala/InvertBinaryTree/InvertBinaryTree.scala)
+
 ### 查找表
 
 - [(Medium)128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) [Code](src/main/scala/LongestConsecutiveSequence/LongestConsecutiveSequence.scala)
 
+### 前缀树
+
+- [(Medium)208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) [Code]()
 ### 图
 
 ## 算法思想
@@ -64,7 +71,9 @@ Just Do IT
 
 - [(Easy)169. Majority Element](https://leetcode.com/problems/majority-element/) [Code](src/main/scala/MajorityElement/MajorityElement.scala)
 
-- [(Eays)204. Count Primes](https://leetcode.com/problems/count-primes/) [Code](src/main/scala/CountPrimes/CountPrimes.scala)
+- [(Easy)204. Count Primes](https://leetcode.com/problems/count-primes/) [Code](src/main/scala/CountPrimes/CountPrimes.scala)
+
+- [(Medium)287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) [Code](src/main/scala/FindDuplicateNumber/FindDuplicateNumber.scala)
 
 ### 枚举，查找和搜索
 
@@ -130,9 +139,9 @@ Just Do IT
 
 - [(Medium)79. Word Search](https://leetcode.com/problems/word-search/) [Code](./src/main/scala/WordSearch/WordSearch.scala)
 
-- [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
-
 - [(Easy)206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) [Code](./src/main/scala/ReverseLinkedList/ReverseLinkedList.scala)
+
+- [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
 
 
 ### 深度搜索和广度搜索

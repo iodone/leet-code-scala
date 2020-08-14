@@ -15,8 +15,9 @@ package CountPrimes
 object Solution {
 
   def countPrimes(n: Int): Int = {
-//    primes(2 to n toList).length
-    primes2(n)
+    //primes(2 to n toList).length
+    // primes2(n)
+    primes1(Stream.range(2, n)).length
   }
 
   // stack overflow
@@ -24,6 +25,13 @@ object Solution {
     if (p == Nil) p
     else
       p.head :: primes(p.tail.filter(_ % p.head != 0))
+  }
+
+  // TLE 
+  def primes1(p: Stream[Int]): Stream[Int] = {
+    if (p == Nil) p
+    else 
+     p.head #:: primes1(p.tail.filter(_ % p.head != 0))
   }
 
   def primes2(n: Int): Int = {
@@ -35,9 +43,9 @@ object Solution {
   }
 
   def main(args: Array[String]): Unit = {
-    assert(countPrimes(2) == 0)
-    assert(countPrimes(10) == 4)
-    assert(countPrimes(100) == 25)
+    println(countPrimes(2))
+    println(countPrimes(10))
   }
+
 
 }
