@@ -1,4 +1,4 @@
-Just Do IT
+# Scala Solution for Leetcode
 
 # 数据结构与算法
 
@@ -10,21 +10,21 @@ Just Do IT
 
 ### 链表
 
-- [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) [Code](./src/main/scala/AddTwoNumbers/AddTwoNumbers.scala)
+- [(Medium)2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) [Code](./src/main/scala/AddTwoNumbers/AddTwoNumbers.scala)
 
-- [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [Code](src/main/scala/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.scala)
+- [(Medium)19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [Code](src/main/scala/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.scala)
 
-- [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) [Code](src/main/scala/MergeTwoSortedLists/MergeTwoSortedLists.scala)
+- [(Easy)21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) [Code](src/main/scala/MergeTwoSortedLists/MergeTwoSortedLists.scala)
 
-- [24. Swap Nodes in Pairs(Medium)](https://leetcode.com/problems/swap-nodes-in-pairs/) [Code](src/main/scala/SwapNodesInPairs/SwapNodesInPairs.scala)
+- [(Medium)24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) [Code](src/main/scala/SwapNodesInPairs/SwapNodesInPairs.scala)
 
-- [25. Reverse Nodes in k-Group(Hard)](https://leetcode.com/problems/reverse-nodes-in-k-group/) [Code](src/main/scala/ReverseNodesInKGroup/ReverseNodesInKGroup.scala)
+- [(Hard)25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) [Code](src/main/scala/ReverseNodesInKGroup/ReverseNodesInKGroup.scala)
 
 ### 堆、队列、栈
 
-- [20. Valid Parentheses(Easy)](https://leetcode.com/problems/valid-parentheses/) [Code](src/main/scala/ValidParentheses/ValidParentheses.scala)
+- [(Easy)20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) [Code](src/main/scala/ValidParentheses/ValidParentheses.scala)
 
-- [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [Code](src/main/scala/MergeKSortedList/MergeKSortedLIsts.scala)
+- [(Hard)23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [Code](src/main/scala/MergeKSortedList/MergeKSortedLIsts.scala)
 
 - [(Medium)146. LRU Cache](https://leetcode.com/problems/lru-cache/) [Code](src/main/scala/LRUCache/LRUCache.scala)
 
@@ -59,11 +59,11 @@ Just Do IT
 
 ### 模拟和技巧
 
-- [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) [Code](src/main/scala/ReverseInteger/ReverseIntege.scala)
+- [(Easy)7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) [Code](src/main/scala/ReverseInteger/ReverseIntege.scala)
 
-- [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) [Code](src/main/scala/StringToInteger/StringToInteger.scala)
+- [(Medium)8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) [Code](src/main/scala/StringToInteger/StringToInteger.scala)
 
-- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) [Code](./src/main/scala/PalindromeNumber/PalindromeNumber.scala)
+- [(Easy)9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) [Code](./src/main/scala/PalindromeNumber/PalindromeNumber.scala)
 
 - [(Medium)56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [Code](src/main/scala/MergeIntervals/MergeIntervals.scala)
 
@@ -77,10 +77,10 @@ Just Do IT
 
 ### 枚举，查找和搜索
 
-- [1. Two Sum](https://leetcode.com/problems/two-sum/) [Code](./src/main/scala/TwoSum/TwoSum.scala)
-- [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) [Code](src/main/scala/ContainerWithMostWater/ContainerWithMostWater.scala)
+- [(Easy)1. Two Sum](https://leetcode.com/problems/two-sum/) [Code](./src/main/scala/TwoSum/TwoSum.scala)
+- [(Medium)11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) [Code](src/main/scala/ContainerWithMostWater/ContainerWithMostWater.scala)
 
-- [15. 3Sum](https://leetcode.com/problems/3sum/) [Code](src/main/scala/3Sum/3Sum.scala)
+- [(Medium)15. 3Sum](https://leetcode.com/problems/3sum/) [Code](src/main/scala/3Sum/3Sum.scala)
 - [(Medium) 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) [Code](src/main/scala/SearchInRotatedSortedArray/SearchInRotatedSortedArray.scala)
 
 - [(Hard)41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) [Code](./src/main/scala/FirstMissingPositive/FirstMissingPositive.scala)
@@ -123,7 +123,7 @@ Just Do IT
 
 - [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) [Code](src/main/scala/LetterCombinationsOfAPhoneNumber/LetterCombinationsPhoneNumber.scala)
 
-- [51. N-Queens](https://leetcode.com/problems/n-queens/) [Code](./src/main/scala/NQueens/NQueens.scala)
+- [(Hard)51. N-Queens](https://leetcode.com/problems/n-queens/) [Code](./src/main/scala/NQueens/NQueens.scala)
 
 - [(Medium)39. Combination Sum](https://leetcode.com/problems/combination-sum/) [Code](./src/main/scala/CombinationSum/CombinationSum.scala)
 
@@ -140,6 +140,8 @@ Just Do IT
 - [(Medium)79. Word Search](https://leetcode.com/problems/word-search/) [Code](./src/main/scala/WordSearch/WordSearch.scala)
 
 - [(Easy)206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) [Code](./src/main/scala/ReverseLinkedList/ReverseLinkedList.scala)
+
+- [(Medium)394. Decode String](https://leetcode.com/problems/decode-string/) [Code](./src/main/scala/DecodeString/DecodeString.scala)
 
 - [(Medium)518. Coin Change 2](https://leetcode.com/problems/coin-change-2/) [Code](./src/main/scala/CoinChange2/CoinChange2.scala)
 
