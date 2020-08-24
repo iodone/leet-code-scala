@@ -97,11 +97,11 @@
 
 ### 动态规划
 
-- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) [Code](./src/main/scala/LongestSubStringWithoutRepeatingCharacters/LongestSubStringWithoutRepeatingCharacters.scala)
+- [(Medium)3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) [Code](./src/main/scala/LongestSubStringWithoutRepeatingCharacters/LongestSubStringWithoutRepeatingCharacters.scala)
 
-- [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) [ToDo](src/main/scala/RegularExpressionMatching/RegularExpressionMatching.scala)
+- [(Hard)10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) [ToDo](src/main/scala/RegularExpressionMatching/RegularExpressionMatching.scala)
 
-- [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [Code](./src/main/scala/MaximumSubarry/MaximumSubarray.scala)
+- [(Easy)53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [Code](./src/main/scala/MaximumSubarry/MaximumSubarray.scala)
 
 - [(Medium)62. Unique Paths](https://leetcode.com/problems/unique-paths/) [Code](./src/main/scala/UniquePaths/UniquePaths.scala)
 
@@ -109,7 +109,7 @@
 
 - [(Medium)121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) [Code](./src/main/scala/BestTimeBuySellStock/BestTimeBuySellStock.scala)
 
-- [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](./src/main/scala/LongestIncreasingSubsequence/LongestIncreasingSubsequence.scala)
+- [(Medium)300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](./src/main/scala/LongestIncreasingSubsequence/LongestIncreasingSubsequence.scala)
 
 - [(Medium)322. Coin Change](https://leetcode.com/problems/coin-change/) [Code](./src/main/scala/CoinChange/CoinChange.scala)
 
@@ -121,7 +121,7 @@
 
 ### 递归和回溯
 
-- [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) [Code](src/main/scala/LetterCombinationsOfAPhoneNumber/LetterCombinationsPhoneNumber.scala)
+- [(Medium)17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) [Code](src/main/scala/LetterCombinationsOfAPhoneNumber/LetterCombinationsPhoneNumber.scala)
 
 - [(Hard)51. N-Queens](https://leetcode.com/problems/n-queens/) [Code](./src/main/scala/NQueens/NQueens.scala)
 
