@@ -4,6 +4,8 @@
 
 ![algo](assert/a.jpg)
 
+# 教程
+[算法入门](https://github.com/krahets/hello-algo)
 # 问题归类
 [leetcode高频题](https://github.com/resumejob/Leetcode-retag)
 
